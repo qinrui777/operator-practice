@@ -23,3 +23,13 @@ Build Date:           2026-01-27T16:16:09Z
 Go OS/Arch:           darwin/amd64
 ```
 
+### Set up Application Operator Demo
+
+```bash
+cd operator-practice
+mkdir application-operator
+
+kubebuilder init --domain jack.cn \
+--repo jack.cn/application-operator \
+--owner Jack
+```
